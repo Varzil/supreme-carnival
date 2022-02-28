@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 
-var name = 'Varzil';
+const name = 'Varzil';
 function Challenge1() {
   return (
     <View>
@@ -13,7 +13,7 @@ function Challenge1() {
     </View>
   );
 }
-// eslint-disable-next-line no-undef
+
 const style = StyleSheet.create({
   textStyle: {color: 'blue', fontSize: 40, fontWeight: 'bold', paddingLeft: 10},
   text2: {fontSize: 30, paddingLeft: 10},
