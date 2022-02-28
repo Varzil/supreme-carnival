@@ -3,13 +3,16 @@ import {Text, View, StyleSheet} from 'react-native';
 import CustomComponent from './Source/screen/CustomComponent';
 import Challenge1 from './Source/screen/Challenge1';
 import FlatListDemo from './Source/screen/FlatListDemo';
+import RButton from './Source/screen/OurButton';
+
 function App() {
   return (
     <View>
       <Text style={style.textStyle}>Hello Varzil</Text>
       {/*<CustomComponent />*/}
-      <Challenge1 />
-      <FlatListDemo />
+      {/*<Challenge1 />*/}
+      {/*<FlatListDemo />*/}
+      <RButton />
     </View>
   );
 }
