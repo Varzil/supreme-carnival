@@ -2,12 +2,15 @@ import React from 'react';
 import {Button, StyleSheet, View} from 'react-native';
 
 const Mysimplebtn = () => {
+  let a = 1;
   return (
     <View>
       <Button
         style={style.btn}
         title={'ClickMe'}
-        onPress={console.log('Clicked')}
+        onPress={() => {
+          console.warn(a++);
+        }}
       />
     </View>
   );
