@@ -4,15 +4,16 @@ import CustomComponent from './Source/screen/CustomComponent';
 import Challenge1 from './Source/screen/Challenge1';
 import FlatListDemo from './Source/screen/FlatListDemo';
 import RButton from './Source/screen/OurButton';
-
+import SastaNetflix from './Source/screen/SastaNetflix';
 function App() {
   return (
     <View>
       <Text style={style.textStyle}>Hello Varzil</Text>
+      <SastaNetflix />
       {/*<CustomComponent />*/}
       {/*<Challenge1 />*/}
       {/*<FlatListDemo />*/}
-      <RButton />
+      {/*<RButton />*/}
     </View>
   );
 }
