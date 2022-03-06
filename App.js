@@ -9,7 +9,7 @@ function App() {
   return (
     <View>
       <Text style={style.textStyle}>Hello Varzil</Text>
-      <SastaNetflix />
+      {/*<SastaNetflix />*/}
       {/*<CustomComponent />*/}
       {/*<Challenge1 />*/}
       {/*<FlatListDemo />*/}
